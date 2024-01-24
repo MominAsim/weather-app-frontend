@@ -1,1 +1,11 @@
- 
+.app{
+    margin-top: 40vh;
+    margin-left: 40vw;
+}
+
+@media screen and (max-width: 850px) {
+  .app{
+    margin-top: 40vh;
+    margin-left: 40vw;
+  }
+  }    
