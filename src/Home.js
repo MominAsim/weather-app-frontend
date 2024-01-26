@@ -26,11 +26,12 @@ export default function App() {
   
   return (
     <div className="App">
-      {(typeof data.main != 'undefined') ? (
+    <div className='all_items'>
+         {(typeof data.main != 'undefined') ? (
         <Weather weatherData={data}/>
       ): (
         <div></div>
       )}
-      
+      </div>
     </div>
   );}

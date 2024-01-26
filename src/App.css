@@ -1,3 +1,8 @@
+.App{
+  padding: 1%;
+  background-color: rgb(156, 168, 171);
+  height: 100vh;
+}
 .card{
     margin-top: 40vh;
     margin-left: 40vw;
