@@ -26,12 +26,13 @@ export default function App() {
   
   return (
     <div className="App">
+      <div className='card'>
       {(typeof data.main != 'undefined') ? (
         <Weather weatherData={data}/>
       ): (
         <div></div>
       )}
-      
+    </div>
     </div>
   );
 }
